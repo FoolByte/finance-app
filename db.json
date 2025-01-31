@@ -1,0 +1,106 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 100,
+      "type": "Expense",
+      "description": "Restaurant",
+      "category": "Food",
+      "created_at": "2023-03-15T23:00:00"
+    },
+    {
+      "id": 2,
+      "amount": 159,
+      "type": "Expense",
+      "description": "Gas",
+      "category": "Car",
+      "created_at": "2023-03-15T23:00:00"
+    },
+    {
+      "id": 3,
+      "amount": 500,
+      "type": "Income",
+      "description": "Salary",
+      "category": "Work",
+      "created_at": "2023-03-15T23:00:00"
+    },
+    {
+      "id": 4,
+      "amount": 200,
+      "type": "Expense",
+      "description": "Groceries",
+      "category": "Food",
+      "created_at": "2023-03-16T10:30:00"
+    },
+    {
+      "id": 5,
+      "amount": 50,
+      "type": "Expense",
+      "description": "Electric Bill",
+      "category": "Utilities",
+      "created_at": "2023-03-16T11:00:00"
+    },
+    {
+      "id": 6,
+      "amount": 1000,
+      "type": "Income",
+      "description": "Freelance Project",
+      "category": "Work",
+      "created_at": "2023-03-16T12:00:00"
+    },
+    {
+      "id": 7,
+      "amount": 75,
+      "type": "Expense",
+      "description": "Internet Subscription",
+      "category": "Utilities",
+      "created_at": "2023-03-16T13:00:00"
+    },
+    {
+      "id": 8,
+      "amount": 300,
+      "type": "Saving",
+      "description": "Emergency Fund",
+      "category": "Savings",
+      "created_at": "2023-03-16T14:00:00"
+    },
+    {
+      "id": 9,
+      "amount": 150,
+      "type": "Investment",
+      "description": "Stock Market",
+      "category": "Stocks",
+      "created_at": "2023-03-16T15:00:00"
+    },
+    {
+      "id": 10,
+      "amount": 250,
+      "type": "Saving",
+      "description": "Retirement Fund",
+      "category": "Savings",
+      "created_at": "2023-03-16T16:00:00"
+    }
+  ],
+  "trends": [
+    {
+      "id": "Income",
+      "amount": 4000,
+      "prevAmount": 3000
+    },
+    {
+      "id": "Expense",
+      "amount": 4000,
+      "prevAmount": 3000
+    },
+    {
+      "id": "Saving",
+      "amount": 4000,
+      "prevAmount": 3000
+    },
+    {
+      "id": "Investment",
+      "amount": 4000,
+      "prevAmount": 3000
+    }
+  ]
+}
